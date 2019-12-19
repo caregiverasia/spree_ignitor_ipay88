@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
-# stub: spree_ignitor_ipay88 0.0.4 ruby lib
+# stub: spree_ignitor_ipay88 0.0.5 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "spree_ignitor_ipay88".freeze
-  s.version = "0.0.4"
+  s.version = "0.0.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib".freeze]
@@ -23,18 +23,18 @@ Gem::Specification.new do |s|
     s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<spree_core>.freeze, ["~> 3.0"])
+      s.add_runtime_dependency(%q<spree_core>.freeze, [">= 3.0", "< 5.0"])
       s.add_development_dependency(%q<sqlite3>.freeze, ["~> 1.3"])
       s.add_development_dependency(%q<minitest>.freeze, ["~> 5.9"])
       s.add_development_dependency(%q<gem-release>.freeze, ["~> 0.7"])
     else
-      s.add_dependency(%q<spree_core>.freeze, ["~> 3.0"])
+      s.add_dependency(%q<spree_core>.freeze, [">= 3.0", "< 5.0"])
       s.add_dependency(%q<sqlite3>.freeze, ["~> 1.3"])
       s.add_dependency(%q<minitest>.freeze, ["~> 5.9"])
       s.add_dependency(%q<gem-release>.freeze, ["~> 0.7"])
     end
   else
-    s.add_dependency(%q<spree_core>.freeze, ["~> 3.0"])
+    s.add_dependency(%q<spree_core>.freeze, [">= 3.0", "< 5.0"])
     s.add_dependency(%q<sqlite3>.freeze, ["~> 1.3"])
     s.add_dependency(%q<minitest>.freeze, ["~> 5.9"])
     s.add_dependency(%q<gem-release>.freeze, ["~> 0.7"])
